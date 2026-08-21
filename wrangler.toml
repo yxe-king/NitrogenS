@@ -5,6 +5,6 @@ compatibility_date = "2025-11-04"
 keep_vars = true
 
 # 绑定生产环境（主项目同步后生效的主体）
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = "优选在用IP"				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"			#KV绑定名默认不可修改
+id = "a1c20ca3f4e348939844562dec3d9c55"				#KV数据库id
