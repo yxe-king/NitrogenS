@@ -8,9 +8,3 @@ keep_vars = true
 #[[kv_namespaces]]
 #binding = "KV"			#KV绑定名默认不可修改
 #id = "优选在用IP"				#KV数据库id
-
-# 建议同时声明预览环境（确保分支同步时也带上绑定）
-[env.preview]
-[[kv_namespaces]]
-binding = "KV"
-id = "优选在用IP"
